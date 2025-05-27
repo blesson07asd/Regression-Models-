@@ -16,5 +16,5 @@ x_train, x_test, y_train, y_test=train_test_split(x,y,test_size=0.2,random_state
 model.fit(x_train,y_train)
 y_pred=model.predict(x_test)    
 
-#print("Mean Squared Error:", mean_squared_error(y_test, y_pred))
+print("Mean Squared Error:", mean_squared_error(y_test, y_pred))
 #print("R^2 Score:", r2_score(y_test, y_pred))   
